@@ -23,8 +23,8 @@ try:
 
         if humidity is not None and temperature is not None:
             clear()
-            print(temperature)
-            print(humidity)
+            print("Temperatura atual: " + temperature )
+            # print("Umidade do ar: %s " % (humidity))
         else:
             print('Cannot read')
 
